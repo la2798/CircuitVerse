@@ -2,6 +2,9 @@
 
 [![Gitter](https://badges.gitter.im/CircuitVerse/community.svg)](https://gitter.im/CircuitVerse/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+# To know how to contribute , please refer the following link:
+[CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## Versions
 - Ruby Version: ruby-2.5.1
 - Rails Version: Rails 5.1.6
