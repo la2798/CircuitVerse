@@ -64,15 +64,16 @@ $ git commit -m 'commit message'
 #To push your work to your remote repository
 $ git push -u origin branch_name
 ```
-- Open a pull request
-The final step 
+- Open a pull request : The final step 
+```
 - Go to your repository in browser
 - Click on compare and pull requests
 - Add a title and description to your pull request
 - And its done!
+```
 
 ## Steps for opening issues
-
+![alt test](https://help.github.com/assets/images/help/repository/repo-tabs-issues.png)
 ## Versions
 - Ruby Version: ruby-2.5.1
 - Rails Version: Rails 5.1.6
