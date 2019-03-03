@@ -2,6 +2,7 @@
 
 [![Gitter](https://badges.gitter.im/CircuitVerse/community.svg)](https://gitter.im/CircuitVerse/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+## Contribution Guildlines
 ## Steps to make your first pull request
 - Fork the project
 
@@ -99,7 +100,7 @@ Select your type of issue and click on ```get started```
 
 ![alt test](https://help.github.com/assets/images/help/issues/issue_template_get_started_button.png)
 
-Type a title and description for your issue and click on **Submit new issue** and you are done !.
+Type a title and description for your issue and click on **Submit new issue** and you are done !
 
 ## Versions
 - Ruby Version: ruby-2.5.1
