@@ -3,8 +3,22 @@
 [![Gitter](https://badges.gitter.im/CircuitVerse/community.svg)](https://gitter.im/CircuitVerse/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Steps to make your first pull request
-- Fork the project 
+- Fork the project
+
+![alt test](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+
 - Clone your local project
+
+![alt test](https://help.github.com/assets/images/help/repository/https-url-clone.png)
+
+Open gitbash and type the following
+```
+$ git clone https://github.com/CircuitVerse/CircuitVerse.git
+```
+- Navigate into your new cloned repository
+```
+cd CircuitVerse
+```
 - To see that your local copy has a reference to your forked remote repository in github, run the following command
 ```
 $ git remote -v
@@ -29,7 +43,7 @@ upstream https://github.com/CircuitVerse/CircuitVerse.git (fetch)
 upstream https://github.com/CircuitVerse/CircuitVerse.git (push)
 ```
 - Sync it
-In a regular internval and before making any changes, run the following commands carefully to update your local repository
+In a regular interval and **before making any changes**, run the following commands **carefully** to update your local repository
 ```
 # to fetch all remote repositories and delete any deleted remote branches
 $ git fetch --all --prune
@@ -44,7 +58,7 @@ $ git reset --hard upstream/master
 $ git push origin master
 ```
 - Create a new Branch
-After completing the above steps, you are good to start contributing to our Issues. Please create a seperate branch and keep your master branch clean
+After completing the above steps, you are good to start contributing to our Issues. Please create a ```seperate branch``` and **keep your master branch clean**
 ```
 # To create a new branch and switch to it
 $ git checkout -b branch_name
@@ -73,7 +87,20 @@ $ git push -u origin branch_name
 ```
 
 ## Steps for opening issues
+Go to the main page of the repository and click Issues
+
 ![alt test](https://help.github.com/assets/images/help/repository/repo-tabs-issues.png)
+
+click new issue
+
+![alt test](https://help.github.com/assets/images/help/issues/new_issues_button.png)
+
+Select your type of issue and click on ```get started```
+
+![alt test](https://help.github.com/assets/images/help/issues/issue_template_get_started_button.png)
+
+Type a title and description for your issue and click on **Submit new issue** and you are done !.
+
 ## Versions
 - Ruby Version: ruby-2.5.1
 - Rails Version: Rails 5.1.6
